@@ -1,0 +1,42 @@
+*{
+    font-size: 1.6rem;
+}
+body {
+
+}
+#container {
+    width: 500px;
+    background-color: black;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+    align-items: center;
+}
+#display {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    text-align: right;
+    flex: 0 1 100%; 
+    height: 150px;
+    font-size: 80px;
+}
+#buttons{
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    gap: 10px;  
+}
+#alt {
+    background-color: orange;
+}
+.btn{
+    width: 65px;
+    height: 65px;
+    font-size: 1em;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: rgba(44, 41, 41);
+    padding: 15px;
+   
+}
